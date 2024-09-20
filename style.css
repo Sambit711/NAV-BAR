@@ -1,5 +1,9 @@
-
+@font-face {
+    font-family: "sambit";
+    src: url(Plutur.ttf);
+}
 * {
+    font-family: "sambit";
     margin: 0;
     padding: 0;
 }
@@ -39,7 +43,10 @@
     display: flex;
     justify-content: space-between;
 }
-
+.home:hover{
+    color: #ff6a00;
+    transition: 0.2s;
+}
 .info {
     display: flex;
     justify-content: center;
